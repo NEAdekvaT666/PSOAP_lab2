@@ -249,7 +249,7 @@ lines(yyyyyy,xxxxxx)
 
 5. Rostelecom - Желтый.
 
-> больше всего времени потребовалось при обращении к Cloudflare DNS, а меньше всего к Rostelecom
+> больше всего времени потребовалось при обращении к Cloudflare DNS, а меньше всего к Rostelecom<br>
 </font>
 
 <font size="5">
