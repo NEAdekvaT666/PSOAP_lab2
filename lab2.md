@@ -213,9 +213,30 @@ RTT = 4ms Трассировка завершена.
 </font>
 
 ```{r, echo=FALSE}
-xt <- c(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100,105,110,115,120,125,130,135,140,145,150)
-yt <- c(0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10)
-plot(yh, xt, main="Сравнительная диаграмма RTT", xlab="Шаг", ylab="RTT", type="n")
+xt <- c(0,5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95)
+yh <- c(0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6,6.5,7,7.5,8,8.5,9,9.5)
+xx <- c(1,19,18,15,6,18,22,20)
+yy <- c(1,2,3,4,5,6,7,8)
+xxx <- c(1,3,4,5,6,20,22,21,20)
+yyy <- c(1,2,3,4,5,6,7,8,9)
+xxxx <- c(1,3,4,4,47,59,91,46,59)
+yyyy <- c(1,2,3,4,5,6,7,8,9)
+xxxxx <- c(1,52,5,25,23,49,71,76)
+yyyyy <- c(1,2,3,4,5,6,7,8)
+xxxxxx <- c(1,4,6,17,4,6)
+yyyyyy <- c(1,2,3,4,5,6)
+plot(yh, xt, main = "Сравнительная диаграмма RTT", xlabel = "Шаг", ylabel = "RTT", type= "n")
+points(yy,xx,col = "red")
+lines(yy,xx,col = "red")
+points(yyy,xxx,col = "green")
+lines(yyy,xxx,col = "green")
+points(yyyy,xxxx,col = "blue")
+lines(yyyy,xxxx,col = "blue")
+points(yyyyy,xxxxx,col = "black")
+lines(yyyyy,xxxxx,col = "black")
+points(yyyyyy,xxxxxx)
+lines(yyyyyy,xxxxxx)
+```
 ```
 
 
