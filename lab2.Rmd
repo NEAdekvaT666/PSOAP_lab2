@@ -230,8 +230,8 @@ points(yyyy,xxxx,col = "blue")
 lines(yyyy,xxxx,col = "blue")
 points(yyyyy,xxxxx,col = "black")
 lines(yyyyy,xxxxx,col = "black")
-points(yyyyyy,xxxxxx)
-lines(yyyyyy,xxxxxx)
+points(yyyyyy,xxxxxx,col = "yellow")
+lines(yyyyyy,xxxxxx,col = "yellow")
 ```
 
 <font size="5">
